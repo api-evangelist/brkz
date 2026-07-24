@@ -1,7 +1,26 @@
 aid: brkz
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brkz.png
 name: BRKZ
-description: BRKZ is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BRKZ is a Saudi Arabian construction-technology company operating a B2B online
+  marketplace for building materials and construction equipment. Positioned as a top online
+  building materials store in the Kingdom of Saudi Arabia (KSA), the platform connects contractors
+  and construction businesses with material suppliers, streamlining procurement and offering
+  nationwide delivery across Saudi Arabia. The bilingual (Arabic and English) storefront lets
+  buyers source construction supplies online, and the company is backed by 500 Global among
+  its investors. This profile was enriched from BRKZ's public web presence; the company runs
+  a private, authenticated API host (api.brkz.com) but does not publish a public developer
+  program, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/brkz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Construction
+- Building Materials
+- Construction Technology
+- E-commerce
+- Marketplace
+- Procurement
+- Logistics
+- B2B
+- Saudi Arabia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://brkz.com
+- type: About
+  url: https://brkz.com/en/about-us
+- type: Support
+  url: https://brkz.com/en/contact-us
+- type: Blog
+  url: https://brkz.com/en/blog
+- type: SignUp
+  url: https://brkz.com/en/login-and-register
+- type: TermsOfService
+  url: https://brkz.com/en/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://brkz.com/en/privacy-policy
+- type: DomainSecurity
+  url: security/brkz-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
